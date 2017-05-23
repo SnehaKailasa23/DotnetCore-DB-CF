@@ -10,10 +10,15 @@ git clone https://github.com/navya476/DotnetCore-DB-CF.git
 ## https://www.codeproject.com/Articles/1137493/Deploy-ASP-Net-Core-Web-Applications-on-Ubuntu-Lin
 
 cd DotnetCore-DB-CF
+
 dotnet restore
+
 cd src/CSUsingEFDBFirstWithNetCore
+
 dotnet publish
+
 cd bin/Debug/netcoreapp1.0/publish/
+
 
 # Push the application to CloudFoundry
 
