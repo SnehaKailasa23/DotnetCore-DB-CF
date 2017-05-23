@@ -1,0 +1,28 @@
+﻿@model IEnumerable<CSUsingEFDBFirstWithNetCore.Details>
+
+@{ ViewBag.Title = "All Students";}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                    @item.Sno
+            </td>
+            <td>
+                    @item.Name
+            </td>
+            <td>
+                    @item.Age
+            </td>
+        </tr>
+    }
+</table>
