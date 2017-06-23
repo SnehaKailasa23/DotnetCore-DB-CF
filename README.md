@@ -32,6 +32,6 @@ cd bin/Debug/netcoreapp1.0/publish/
 
 # Push the application to CloudFoundry
 
-cf login ## give appropriate link with username and password
+cf login ## give appropriate link with username and password (https://api.run.pivotal.io)
 
 cf push "ApplicationName" -b https://github.com/cloudfoundry/dotnet-core-buildpack
